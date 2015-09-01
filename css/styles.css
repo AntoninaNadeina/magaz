@@ -541,9 +541,9 @@ a.selected, a.selected:visited {
     text-align: center;
 }
 .buttons {
-    display: none!important;
     position: absolute;
     overflow: hidden;
+    display:none;
 }
 .group1 .buttons,.group5 .buttons {
     top: 89px;
@@ -566,8 +566,8 @@ a.selected, a.selected:visited {
     left: 79px;
 }
 .group2_6 .buttons {
-    top: 83px;
-    left: 85px;
+    top: 68px;
+    left: 64px;
 }
 .group2_7 .buttons {
     top: 83px;
@@ -596,6 +596,9 @@ a.selected, a.selected:visited {
 }
 .ert,.group3,.tyu,.group2,.group4  {
     float: left;
+}
+.group2_6 {
+    overflow: hidden;
 }
 .group5,.group1,.group3,.group2,.group4,.group2_1,.group2_2,.group2_3,
 .group2_4,.group2_5,.group2_6,.group2_7{
