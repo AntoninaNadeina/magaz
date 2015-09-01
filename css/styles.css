@@ -755,7 +755,6 @@ a.selected, a.selected:visited {
     overflow: hidden;
     float: left;
     max-width: 1115px;
-    height: 138px;
     margin: 0 auto;
 }
 .people {
